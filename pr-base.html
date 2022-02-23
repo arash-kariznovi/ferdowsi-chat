@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Skills and Projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="pr-styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@600&display=swap');
+    </style>
+</head>
+<body style="margin-top: 30px">
+    <div class="container">
+        <div class="jumbotron" style="padding: 15px">
+            <h1>Personal Resume</h1>
+            <p class="subtitle">here are your skills, projects and more!</p>
+        </div>
+
+        <div class="container">
+            <div class="component">
+                <h2 class="box-title">Skill</h2>
+                <div class="box">
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#skillModalCenter">Add a skill</button>
+                <div class="modal fade" id="skillModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Add Skills</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label>Skill</label>
+                                        <input type="text" class="form-control mx-sm-1" placeholder="e.g. Problem Solving">
+                                    </div>
+<!--                                    <button type="submit" class="btn submit-button mx-sm-1">Add</button>-->
+                                </form>
+                                <hr/>
+                                <button type="button" class="btn btn-outline-primary item-btn">Team Work</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Human Resource Management</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Python Programming</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Matlab</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Professional Writing</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Negotiating</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Networking</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Trading</button>
+                                <button type="button" class="btn btn-outline-primary item-btn">Marketing</button>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--                <div id="skill" class="collapse">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row">-->
+<!--                            <form class="form-inline">-->
+<!--                                <div class="form-group">-->
+<!--                                    <label>Skill</label>-->
+<!--                                    <input type="text" class="form-control mx-sm-1" placeholder="e.g. Programming">-->
+<!--                                </div>-->
+<!--                                <button type="submit" class="btn mt-button mx-sm-1">Add</button>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+<!--            </div>-->
+        <div class="component">
+                <h2 class="box-title">Projects</h2>
+                <div class="box">
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                    <p>hihihihhiih</p>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proj">Add a skill</button>
+                <div class="modal fade" id="proj" tabindex="-1" role="modal" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Add Projects</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form style="border-color: darkgray ; border-bottom-width: 2px">
+                                    <div class="form-group">
+                                        <label for="exampleName">Project Name</label>
+                                        <input type="text" class="form-control" id="exampleName" placeholder="Project Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampledescription">Project Description</label>
+                                        <input type="text" class="form-control" id="exampledescription" placeholder="Project Description">
+                                    </div>
+<!--                                    <button type="submit" class="btn mt-button">Add</button>-->
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Add</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+<!--                <div id="!project" class="collapse">-->
+<!--                    <form style="border-color: darkgray ; border-bottom-width: 2px">-->
+<!--                        <div class="form-group">-->
+<!--                            <label for="exampleName">Project Name</label>-->
+<!--                            <input type="email" class="form-control" id="exampleName" placeholder="Project Name">-->
+<!--                        </div>-->
+
+<!--                        <div class="form-group">-->
+<!--                            <label for="exampledescription">Project Name</label>-->
+<!--                            <input type="email" class="form-control" id="exampledescription" placeholder="Project Description">-->
+<!--                        </div>-->
+
+<!--                        <button type="submit" class="btn mt-button">Submit</button>-->
+<!--                    </form>-->
+<!--                </div>-->
+        </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

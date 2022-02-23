@@ -1,0 +1,233 @@
+@font-face {
+  font-family: IRANSans;
+  src: url(../fonts/Iranian_Sans.ttf);
+}
+
+
+body {
+  font-family: IRANSans;
+  text-align:center;
+  background-image: url("../images/group_bg.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+div{
+  direction: rtl;
+}
+
+#main-container{
+  margin-top: 50px;
+  background-color: rgba(240, 248, 255, 0.5);
+  border-radius: 15px;
+
+}
+
+.col-lg-8{
+  text-align: right;
+  color: darkblue;
+}
+
+.align-left{
+  float: left;
+}
+
+.align-right{
+  float: right;
+}
+
+.text-right, .text-center{
+  font-family: IRANSans;
+}
+
+input[type=text], input[type=text], input[type=file]{
+  display: inline-block;
+  width: 20%;
+  outline: none;
+  padding: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 1px solid darkgray;
+  background-color: ghostwhite;
+}
+
+input[type=file]{
+  border-bottom: none;
+  background-color: aliceblue;
+}
+
+input[type=text]{
+  width: 50%;
+}
+
+.avatar {
+  margin-bottom: 20px;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn{
+  background-color: dodgerblue;
+  color: aliceblue;
+  display: inline;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+
+
+.profile-img, .profile-pic{
+  text-align: center;
+}
+
+#profile-photo, #edit-pic{
+  width: 20vw;
+  height: 20vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle; 
+  border-radius: 50%;
+}
+
+.text-description{
+  padding: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 30vw;
+  line-height: 2;
+
+}
+
+.group-name{
+  display: flex;
+  padding: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.profile-edit-btn{
+  text-align: center;
+  border: none;
+  border-radius: 1.5rem;
+  width: 15%;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: smaller;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.icon{
+  background-image: url("../images/edit_profile_icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+
+.add-new-member{
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 15px;
+}
+
+.profile-pic img {
+  object-fit: cover;
+}
+
+.edit-file {
+  margin-bottom: 15px;
+  vertical-align: middle; 
+  border-radius: 50%;
+}
+
+.btn-info{
+  border: none;
+  border-radius: 1.5rem;
+  width: 20px;
+  height: 20px;
+  background-color: lightgrey;
+}
+
+.icon-plus{
+  background-image: url('../images/add_member.jpg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.list-group-item{
+  border-radius: 1.5rem;
+  background-color: rgba(223, 230, 235, 0.8);
+}
+
+.list-group-item-info{
+  background-color: rgba(138, 198, 235, 0.8);
+}
+
+#add-member{
+  /* display: inline-flex; */
+  margin-top: 30px; 
+} 
+
+.member-name{
+  text-align: right;
+}
+
+.list-group-item:hover .hide-show-delete{
+  display: block;
+}
+
+.hide-show-delete{
+  display: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 1vw;
+  height: 1vw;  
+}
+
+.hide-show-delete:hover{
+  background-color: gainsboro;
+  border-radius: 1.5rem;
+  transform: scale(1.5);
+}
+
+.role-btn{
+  border: none;
+  font-size: smaller;
+  width: 35px;
+  height: 18px;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.role{
+  display: inline;
+}
+
+.role-member{
+  margin-top: 15px;
+  background-color: gainsboro;
+  width: 140px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: baseline;
+}
+
+option{
+  text-align: center;
+}
+
+
+

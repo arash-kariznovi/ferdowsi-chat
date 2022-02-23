@@ -1,0 +1,64 @@
+.shelf-title {
+  width: 220px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2f4b72;
+  background: #ffffff55;
+  border-radius: 0px 50px 0px 50px;
+  font-weight: bolder;
+}
+.back-icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+.sb-btn-shelf {
+  top: 3.5px !important;
+}
+.trash-icon {
+  background-image: url("../images/trash.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 4px;
+  width: 27px !important;
+  height: 27px !important;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.tp-text-shelf {
+  top: 94% !important;
+}
+.opt_shelf {
+  width: 100%;
+  min-height: 25px;
+  display: inline-flex;
+  direction: rtl;
+  font-weight: bold;
+  padding: 10px 0px !important;
+}
+.text_shelf_empty{
+  line-height: 45px;
+  height: 55px;
+  width: 225px;
+  border: 3px solid #0c5460;
+  text-align: center;
+  background-color: aliceblue;
+}
+.text_not_read{
+  width: 100%;
+  min-height: 25px;
+  display: inline-flex;
+  direction: rtl;
+  padding: 5px 20px 25px 0px !important;
+  color:#9d1611;
+}
+.text_read{
+  width: 100%;
+  min-height: 25px;
+  display: inline-flex;
+  direction: rtl;
+  padding: 5px 0px !important;
+  color:#1c7430;
+}

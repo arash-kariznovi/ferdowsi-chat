@@ -1,0 +1,36 @@
+td{font-size:10pt; font-family: Tahoma}
+.mnav{background-color:#F9E8DC;font-size: 10px}
+.header{background-color:#FECAA6}
+.EvenRow
+{
+	background-color: #efefef;
+}
+.OddRow
+{
+	background-color: #ffffff;
+}
+
+.main-frame {
+	width: 100%;
+}
+
+#MainContent {
+	float: left;
+	width: 98%;
+	/* transition: width 0.5s ease-in; */
+	padding-right: 10px;
+}
+
+.menu-frame {
+	/* width: 50px; */
+	transform: translateX(85%);
+	transition: transform 0.5s ease-in;
+	float: right;
+	position: absolute;
+	min-height: 100vh;
+}
+
+#Menu {
+	width: 99%;
+	height: 100vh;
+}

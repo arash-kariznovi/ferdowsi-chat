@@ -1,0 +1,71 @@
+.add-book-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 1px 10px -5px #000000;
+  border-radius: 5px;
+  background-color: #f1faee;
+  padding: 0px 50px !important;
+}
+label {
+  /* padding: 10px 0px !important; */
+  direction: rtl;
+}
+.add-input {
+  direction: rtl;
+  width: 245px;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #a8dadc !important;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  margin: 15px 0px !important;
+}
+.add-btn {
+  width: 90px;
+  min-height: 35px;
+}
+
+@media only screen and (max-width: 1601px) {
+  label {
+    padding: 0px !important;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .add-book-container.active {
+    right: 65%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .add-book-container.active {
+    right: 20%;
+    width: 445px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .add-book-container.active {
+    right: -5%;
+    width: 445px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .add-book-container.active {
+    right: -12.5%;
+    width: 445px;
+  }
+}
+@media only screen and (max-width: 322px) {
+  .add-book-container.active {
+    right: -10%;
+    width: 370px;
+  }
+}
